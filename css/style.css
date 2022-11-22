@@ -1,0 +1,117 @@
+body {
+  background-color: white;
+  background-image: url(../images/waterfall.jpg);
+  font-family: Sylfaen;
+  color: white;
+  text-align: center;
+  position:relative;
+}
+
+p{
+  padding: 1em;
+}
+
+h1{
+  font-family: 'Anton', cursive;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  margin: 2rem;
+  text-decoration: underline;
+  text-underline-offset: 0.4em;
+}
+
+th{
+  background-color: gray;
+  text-align: center;
+  height: 0.5em;
+  border-radius: 0.04em;
+}
+
+td{
+  color: black;
+  text-align: center;
+  height: 0.5em;
+  border-radius: 0.04em;
+}
+
+img{
+  max-height: 25em;
+  max-width: 30em;
+  outline-color: white;
+  outline-width: 0.02em;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+section {
+  margin-bottom: 0.3em;
+}
+
+#main-navbar{
+  background-color: black;
+  overflow: hidden;
+}
+
+#navbar-container{
+  float: left;
+  width: 100%;
+  position: fixed;
+}
+
+#main-navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  left: 50%;
+  float: left;
+}
+
+#main-navbar ul li{
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+#main-navbar ul li a{
+  display: block;
+  padding: 0.5em;
+  color: orange;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover{
+  background-color: brown;
+  text-decoration: underline;
+}
+
+#sidebar-container{
+  position: fixed;
+  right: 1%;
+  background-color: black;
+  height: 80%;
+  width: 12%;
+  float: right;
+}
+
+#sidebar ul{
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+#sidebar ul li a{
+  display: block;
+  padding: 0.15em 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar ul li a:hover{
+  background-color: #000;
+}
