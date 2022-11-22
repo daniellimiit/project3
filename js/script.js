@@ -1,17 +1,8 @@
-function init(){
-  
-  var input = document.getElementById('entryinput')
-  var pressButton = document.getElementById('entrybutton')
-  var output = document.getElementById('textoutput')
-  
-  function alertFunc() {
-    //sends the alert
-    alert('Daniel Lim: ' + input.value)
-    //changes h2
-    output.innerHTML = input.value;
-  }
-  
-  pressButton.addEventListener('click', alertFunc);
-
+  function initMap(){
+  var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -34.397, lng: 150.644},
+      zoom: 8
+    });
 }
-window.addEventListener('load', init);
+
+google.maps.event.addDomListener(window, 'load', initMap);
