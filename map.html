@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Project 3 Map</title>
+  <meta name="viewport" content="initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
   <script async src="js/script.js"></script>
 </head>
 <body>
@@ -27,8 +29,9 @@
         });
       }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
-    async defer></script>
+    <div id="wrapper">
+      <div id="canvas"></div>
+    </div>
   </section>
   <section>
     <h1>This is a map</h1>
