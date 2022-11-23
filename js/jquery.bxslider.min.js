@@ -73,7 +73,7 @@ $(document).ready(function(){
    $('.bxslider').bxSlider({
      mode: 'fade'
    });
-});
+};
 
 /**
  * BxSlider v4.1.2 - Fully loaded, responsive content slider
