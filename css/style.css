@@ -135,6 +135,7 @@ section {
   margin: 30px auto;
 }
 
+/**
 .bx-wrapper {
 	position: relative;
 	margin: 0 auto 60px;
@@ -146,10 +147,12 @@ section {
 	max-width: 100%;
 	display: block;
 }
+*/
 
 /** THEME
 ===================================*/
 
+/*
 .bx-wrapper .bx-viewport {
 	-moz-box-shadow: 0 0 5px #ccc;
 	-webkit-box-shadow: 0 0 5px #ccc;
@@ -157,8 +160,10 @@ section {
 	border:  5px solid #fff;
 	left: -5px;
 	background: #fff;
+*/
 	
 	/*fix other elements on the page moving (on Chrome)*/
+/*
 	-webkit-transform: translatez(0);
 	-moz-transform: translatez(0);
     	-ms-transform: translatez(0);
@@ -172,9 +177,11 @@ section {
 	bottom: -30px;
 	width: 100%;
 }
+*/
 
 /* LOADER */
 
+/*
 .bx-wrapper .bx-loading {
 	min-height: 50px;
 	background: url(images/bx_loader.gif) center center no-repeat #fff;
@@ -185,9 +192,11 @@ section {
 	left: 0;
 	z-index: 2000;
 }
+*/
 
 /* PAGER */
 
+/*
 .bx-wrapper .bx-pager {
 	text-align: center;
 	font-size: .85em;
@@ -221,9 +230,11 @@ section {
 .bx-wrapper .bx-pager.bx-default-pager a.active {
 	background: #000;
 }
+*/
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
+/*
 .bx-wrapper .bx-prev {
 	left: 10px;
 	background: url(images/controls.png) no-repeat 0 -32px;
@@ -256,9 +267,11 @@ section {
 .bx-wrapper .bx-controls-direction a.disabled {
 	display: none;
 }
+*/
 
 /* AUTO CONTROLS (START / STOP) */
 
+/*
 .bx-wrapper .bx-controls-auto {
 	text-align: center;
 }
@@ -292,9 +305,11 @@ section {
 .bx-wrapper .bx-controls-auto .bx-stop.active {
 	background-position: -86px -33px;
 }
+*/
 
 /* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
 
+/*
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
 	text-align: left;
 	width: 80%;
@@ -304,9 +319,11 @@ section {
 	right: 0;
 	width: 35px;
 }
+*/
 
 /* IMAGE CAPTIONS */
 
+/*
 .bx-wrapper .bx-caption {
 	position: absolute;
 	bottom: 0;
@@ -323,6 +340,7 @@ section {
 	font-size: .85em;
 	padding: 10px;
 }
+*/
 
 @media screen and (min-width: 1000px) {
   #media .bx-wrapper{
