@@ -323,3 +323,23 @@ section {
 	font-size: .85em;
 	padding: 10px;
 }
+
+@media screen and (min-width: 1000px) {
+  #media .bx-wrapper{
+    width: 10%;
+    float: left;
+    margin-right: 20px;
+  }
+  #media h2{
+  text-align: center;
+  }
+  #media p{
+  text-align: center;
+  }
+  
+}
+@media screen and (min-width: 2000px) {
+  #media p{
+    font-size: 25px;
+  }
+}
