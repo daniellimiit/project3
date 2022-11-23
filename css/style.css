@@ -356,11 +356,17 @@ section {
     float: left;
     margin-right: 20px;
   }
+  #media h1{
+    font-size: 50px;
+    text-align: center;
+  }
+	
   #media h2{
-  text-align: center;
+		font-size: 40px;
+    text-align: center;
   }
   #media p{
-  text-align: center;
+    text-align: center;
   }
   
 }
