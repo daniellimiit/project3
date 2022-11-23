@@ -341,6 +341,14 @@ section {
 	padding: 10px;
 }
 
+.slideshow {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+.slideshow ul {
+    margin:0;
+  }
+
 /*
 @media screen and (min-width: 1000px) {
   #media .bx-wrapper{
