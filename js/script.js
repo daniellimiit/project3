@@ -73,7 +73,7 @@ $(document).ready(function(){
    $('.bxslider').bxSlider({
      mode: 'fade'
    });
-};
+});
 
 /**
  * BxSlider v4.1.2 - Fully loaded, responsive content slider
@@ -91,5 +91,5 @@ function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
   center: {lat: -34.397, lng: 150.644},
   zoom: 8
-  };
+  });
 }
